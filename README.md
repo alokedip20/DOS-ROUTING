@@ -48,7 +48,7 @@
 				For transferring file between linux host and Virtual Box (MS-DOS) I have used 	"mtcp->FTP".
 			</li>
 			<li> 
-				For debugging purpose like (If packets are sending or receiving correctly) I have used <b>"wireshark"</b>
+				For debugging purpose, (To check if packets have been received by the host device or have been sent from the host device) ,I have used <b>"wireshark"</b>
 			</li>
 		</ol>
 	</p>
