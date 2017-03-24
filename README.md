@@ -31,11 +31,14 @@
 <h3>Code:</h3>
 	<p>	
 	The main file for the "Router" is <b>"ROUTER.C"</b>. In this file I have included two extra headers 
-						<ol>              
-	                        <li><b>"MY_NET.H"</b> ===> all those packet driver APIs has been defined in this header.</li>
-	                          
-	                        <li> <b>"ROUTING.H"</b> ===> Main routing algorithm ,Creation of ARP table have been implemented in this header.</li>
-	                    </ol>
+		<ol>              
+	    	<li>
+	    		<b>"MY_NET.H"</b> ===> all those packet driver APIs has been defined in this header.  
+			</li>
+	   		<li> 
+	   			<b>"ROUTING.H"</b> ===> Main routing algorithm ,Creation of ARP table have been implemented in this header.
+	 	  	</li>
+		</ol>
 	</p>
 
 <h3>Extra software:</h3>
