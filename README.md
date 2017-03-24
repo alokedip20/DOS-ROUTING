@@ -42,8 +42,13 @@
 	</p>
 
 <h3>Extra software:</h3>
-	<ol>
-	<li> For transferring file between linux host and Virtual Box (MS-DOS) I have used "mtcp->FTP"</li>
-
-	<li> For debugging purpose like (If packets are sending or receiving correctly) I have used <b>"wireshark"</b></li>
-	</ol>
+	<p>
+		<ol>
+			<li> 
+				For transferring file between linux host and Virtual Box (MS-DOS) I have used 	"mtcp->FTP".
+			</li>
+			<li> 
+				For debugging purpose like (If packets are sending or receiving correctly) I have used <b>"wireshark"</b>
+			</li>
+		</ol>
+	</p>
