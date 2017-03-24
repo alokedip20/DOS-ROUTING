@@ -4,7 +4,7 @@
 
 <h3>Packet Drivers installation:</h3>
 	<p>
-	I have to install two packet drivers for two different NICs in my virtual box. For doing this I have used the patched version of <a href=""http://unix.oppserver.net/vmware/unix/fixpcnt.com"">"PCNTPK.COM" </a> The respective Commands to install packet drivers for two virtual adapters are as below:
+	I have to install two packet drivers for two different NICs in my virtual box. For doing this I have used the patched version of <a href="http://unix.oppserver.net/vmware/unix/fixpcnt.com">"PCNTPK.COM" </a> The respective Commands to install packet drivers for two virtual adapters are as below:
 				<ol>
 					<li> fixpcnt.com  (it will create pcntpk2.com ==>patched version of pcntpk.com)</li>
 					<li> pcntpk2.com int=0x60 ioaddr=0 (it will install packet driver for    adapter[0]==>1st ADP)</li>
