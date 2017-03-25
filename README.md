@@ -39,16 +39,23 @@
 	   			<b>"ROUTING.H"</b> ===> Main routing algorithm ,Creation of ARP table have been implemented in this header.
 	 	  	</li>
 		</ol>
+		<h4> Build :-</h4>
+		<ul>
+			<li> After installation of Turbo C++ all the necessary binary files like <b>"tc.exe -> code editor , tcc.exe -> compiler</b> will be located into the <b>tc</b> directory". So for compiling any .c file from any directory I have added this <b>BIN</b> directory to the environment variables (located into the <b>C:\autoexec.bat</b>).</li>
+			<li> Copy "MY_NET.H" and "ROUTING.H" into the same directory where ROUTER.C will be created.</li>
+			<li> <b> Compilation :- </b> tcc -ml "file_name"</li>
+			<li> Run the executable file :- ROUTER.EXE</li>
+		</ul>
 	</p>
 
 <h3>Extra software:</h3>
-	<p>
-		<ol>
-			<li> 
-				For transferring file between linux host and Virtual Box (MS-DOS) I have used 	"mtcp->FTP".
-			</li>
-			<li> 
-				For debugging purpose, (To check if packets have been received by the host device or have been sent from the host device) ,I have used <b>"wireshark"</b>
-			</li>
-		</ol>
-	</p>
+<p>
+	<ol>
+		<li> 
+			For transferring file between linux host and Virtual Box (MS-DOS) I have used 	"mtcp->FTP".
+		</li>
+		<li> 
+			For debugging purpose, (To check if packets have been received by the host device or have been sent from the host device) ,I have used <b>"wireshark"</b>
+		</li>
+	</ol>
+</p>
