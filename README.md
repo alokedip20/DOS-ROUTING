@@ -21,7 +21,7 @@
 			<li> packet[14] -> packet[15] ==> destination iip</li>
 			<li> packet[16] -> packet[17] ==> source iip</li>
 			<li> packet[18] -> packet[18+size_of_data] ==> data</li>
-			<li> packet[size_of_data+19] -> packet[MAX-1] ==> padded by NULL (0x00)</li>
+			<li> packet[size_of_data+19] -> packet[MAX-1] ==> padded with NULL (0x00)</li>
 		</ul>
 
 <h3>Experiment:</h3>
