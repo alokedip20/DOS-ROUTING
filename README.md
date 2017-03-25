@@ -44,7 +44,7 @@
 			<li> After installation of Turbo C++ all the necessary binary files like <b>"tc.exe -> code editor , tcc.exe -> compiler</b> will be located into the <b>tc</b> directory". So for compiling any .c file from any directory I have added this <b>BIN</b> directory to the environment variables (located into the <b>C:\autoexec.bat</b>).</li>
 			<li> Copy "MY_NET.H" and "ROUTING.H" into the same directory where ROUTER.C will be created.</li>
 			<li> <b> Compilation :- </b> tcc -ml "file_name"</li>
-			<li> Run the executable file :- ROUTER.EXE</li>
+			<li> Run the executable file :- file_name.EXE</li>
 		</ul>
 	</p>
 
